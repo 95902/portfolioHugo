@@ -8,6 +8,32 @@
     ".nav-dropdown > .nav-link",
   );
 
+const txtAnim = document.querySelector('h1');
+
+new Typewriter(txtAnim, {
+  loop: true,
+  deleteSpeed: 20,
+  delay: 'natural'
+})
+  .typeString("Hello je suis Marcel")
+  .pauseFor(300)
+  .typeString("<strong>, Développeur Web</strong>")
+  .pause(1000)
+  .deleteChars(16)
+  .typeString('<span style="color: #27ae60;">Dev PHP</span>!')
+  .pauseFor(1000)
+  .deleteChars(8)
+  .typeString('<span style="color: midnightblue;">Dev JavaScript</span> !')
+  .pauseFor(1000)
+  .deleteChars(16)
+  .typeString('<span style="color: #27ae60;">Dev Symfony</span> !')
+  .pauseFor(1000)
+  .deleteChars(13)
+  .typeString('<span style="color: #ff7e67;">Dev Laravel</span> !')
+  .pauseFor(1000)
+  .deleteChars(13)
+  .start();
+
   dropdownMenuToggler.forEach((toggler) => {
     toggler?.addEventListener("click", (e) => {
       e.target.closest('.nav-item').classList.toggle("active");

@@ -4,9 +4,8 @@
     <section class="section pt-14">
       <div class="container">
         <div class="row justify-center">
-          <div class="lg:col-7 md:col-9 mb-8 text-center">
-            <h1 class="mb-4 text-h3 lg:text-h1">
-              {{ .title | markdownify }}
+          <div class="lg:col-6 md:col-6 mb-8 text-center">
+            <h1 class="mb-4 text-h4 lg:text-h2">
             </h1>
             <p class="mb-8">
               {{ .content | markdownify }}
@@ -25,7 +24,7 @@
               {{ end }}
             {{ end }}
           </div>
-          <div class="col-12">
+          <div class="col-6">
             {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
           </div>
         </div>
@@ -141,4 +140,5 @@
     {{ end }}
   {{ end }}
   <!-- /Testimonials -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 {{ end }}
