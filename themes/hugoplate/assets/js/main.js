@@ -59,4 +59,5 @@ new Typewriter(txtAnim, {
       },
     },
   });
+
 })();
