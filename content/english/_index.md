@@ -5,8 +5,9 @@ banner:
   content: "En quête d'innovation, je transforme des lignes de code en expériences interactives.."
   image: "/images/banner.png"
   button:
+    icon: "icon-linkedin-fill"
+    label: "Contact"
     enable: true
-    label: "Contacter moi !"
     link: "/contact/"
 
 # Features

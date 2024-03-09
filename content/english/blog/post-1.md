@@ -3,7 +3,7 @@ title: "Magarantieauto : Une Collaboration Fructueuse"
 meta_title: ""
 description: "Magarantieauto : Une Collaboration Fructueuse"
 date: 2022-04-04T05:00:00Z
-image: "/images/logo_mga.png"
+image: "/images/mga_logo.svg"
 categories: ["Application", "Data"]
 author: "Mars-hell"
 tags: ["PHP", "BOOTSTRAP"]

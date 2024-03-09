@@ -2,29 +2,31 @@
   <!-- Banner -->
   {{ with .Params.banner }}
     <section class="section pt-14">
-      <div class="container">
+      <div class=" reveal container">
         <div class="row justify-center">
           <div class="lg:col-6 md:col-6 mb-8 text-center">
-            <h1 class="mb-4 text-h4 lg:text-h2">
+            <h1 class="reveal-16 mb-4 text-h4 lg:text-h2">
             </h1>
-            <p class="mb-8">
+            <p class="reveal-17 mb-8 " >
               {{ .content | markdownify }}
             </p>
             {{ with .button }}
               {{ if .enable }}
                 <a
-                  class="btn btn-primary"
+                 
+                  class="btnContact dark:btnContact2 btn btn-primary"
                   href="{{ .link | absURL }}"
                   {{ if strings.HasPrefix .link `http` }}
                     target="_blank" rel="noopener"
                   {{ end }}>
+                 
+                  <i class="fa fa-envelope"></i>
                   {{ .label }}
-                  <i class="fa fa-arrow-right pl-2"></i>
                 </a>
               {{ end }}
             {{ end }}
           </div>
-          <div class="col-6">
+          <div class="reveal-19 col-6">
             {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
           </div>
         </div>
@@ -33,31 +35,113 @@
   {{ end }}
   <!-- /Banner -->
 
+  <style>
+    
+  .btnContact:hover{color:#636363;background-color:transparent;border-color:#000}
+  .btnContact2:hover{color:#8b8b8b;background-color:transparent;border-color:#949494d0}
+     
+      
+
+ 
+
+    
+  .reveal [class*="reveal-"] {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+
+    .reveal-visible [class*="reveal-"] {
+      opacity: 1;
+      transform: translate(0);
+      transition: 1s cubic-bezier(.54,.01,0,.98)
+    }
+
+    .reveal-visible .reveal-2 {
+      transition-delay: .1s;
+    }
+
+    .reveal-visible .reveal-3 {
+      transition-delay: .2s;
+    }
+    .reveal-visible .reveal-4 {
+      transition-delay: .3s;
+    }
+    .reveal-visible .reveal-5 {
+      transition-delay: .1s;
+    }
+    .reveal-visible .reveal-6 {
+      transition-delay: .2s;
+    }
+    .reveal-visible .reveal-7 {
+      transition-delay: .3s;
+    }
+    .reveal-visible .reveal-8 {
+      transition-delay: .3s;
+    }
+    .reveal-visible .reveal-9 {
+      transition-delay: .3s;
+    }
+    .reveal-visible .reveal-10 {
+      transition-delay: .4s;
+    }
+    .reveal-visible .reveal-12 {
+      transition-delay: .5s;
+    }
+    .reveal-visible .reveal-13 {
+      transition-delay: .7s;
+    }
+    .reveal-visible .reveal-14 {
+      transition-delay: .2s;
+    }
+    .reveal-visible .reveal-15 {
+      transition-delay: .3s;
+    }
+    .reveal-visible .reveal-16 {
+      transition-delay: .1s;
+    }
+    .reveal-visible .reveal-17 {
+      transition-delay: .1s;
+    }
+    .reveal-visible .reveal-18 {
+      transition-delay: 2s;
+    }
+    .reveal-visible .reveal-19 {
+      transition-delay: .3s;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .reveal-visible [class*="reveal-"] {
+        opacity: 1;
+        transform: translate(0)
+      }
+    }
+  </style>
+
   <!-- Features -->
   {{ range $i, $e:= .Params.features }}
     <section class="section-sm pb-0 mb-0 {{ if (modBool $i 2) }}bg-gradient{{ end }}">
-      <div class="container">
+      <div class="reveal container">
         <div class="row items-center justify-between">
           <div
-            class="mb:md-0 {{ if not (modBool $i 2) }}
+            class=" reveal-1 mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
             {{ end }} md:col-5 mb-6">
             {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
           </div>
           <div
-            class="{{ if not (modBool $i 2) }}
+            class=" {{ if not (modBool $i 2) }}
               md:order-1
             {{ end }} md:col-7 lg:col-6">
             
-            <h2 class="mb-4">
+            <h2 class="reveal-2 mb-4 " >
               {{ .title | markdownify }}
             </h2>
-            <p class="mb-8 text-lg">
-              {{ .content | markdownify }}
+            <p class="reveal-2 mb-8 text-lg ">
+              {{ .content  }}
             </p>
             <ul>
               {{ range .bulletpoints }}
-                <li class="relative mb-4 pl-6">
+                <li class=" reveal-3 mb-4 pl-6 ">
                   <i class="fa fa-check absolute left-0 top-1.5"></i>
                   {{ . | markdownify }}
                 </li>
@@ -65,7 +149,7 @@
             </ul>
             {{ with .button }}
               {{ if .enable }}
-                <a class="btn btn-primary mt-6" href="{{ .link | absURL }}"
+                <a class=" btn btn-primary mt-6" href="{{ .link | absURL }}"
                   {{ if strings.HasPrefix .link `http` }}
                   target="_blank" rel="noopener"
                 {{ end }}>
@@ -84,17 +168,17 @@
 
   {{ if .Params.education.enable }}
 <section class="pt-4 mt-4  section--border-bottom rad-animation-group">
-  <div class="container px-4">
+  <div class="reveal  container px-4">
     <div class="row  rad-fade-down">
       
-        <h2>{{ .Params.education.title }}</h2>
+        <h2 class="reveal-4">{{ .Params.education.title }}</h2>
         <div class="row  pt-4 pt-md-4 ml-lg-50">
           {{ range $i, $e := .Params.education.items }}
             <div class="col-6 col-sm-6 mb-4 mb-sm-0 ">
-              <div class="education mb-5">
-                <div class="education__date">{{ $e.year | markdownify }}</div>
-                <div class="education__title">{{ $e.university  | markdownify}}</div>
-                <div class="education__degree">{{ $e.degree| markdownify }}</div>
+              <div class="reveal-5 education mb-5">
+                <div class="reveal-6 education__date">{{ $e.year | markdownify }}</div>
+                <div class="reveal-7 education__title">{{ $e.university  | markdownify}}</div>
+                <div class="reveal-8 education__degree">{{ $e.degree| markdownify }}</div>
               </div>
             </div>
           {{ end }}
@@ -123,33 +207,33 @@
 
   <!-- /Experience -->
   <section id="experience" class="bg-gradient section section--border-bottom rad-animation-group">
-    <div class="container">
+    <div class="reveal  container">
         <div class="row flex-column-reverse flex-md-row rad-fade-down">
             <div class="col-6 col-sm-6 mt-5 mt-sm-0">
                 {{ with .Params.experience.items }}
                     {{ range . }}
                         <div class="experience ">
-                            <div class="experience__date mt-2">{{ .duration }}</div>
-                            <div class="experience__title text-lg">{{ .title }}</div>
-                            <div class="experience__company">{{ .company }}</div>
+                            <div class="reveal-10 experience__date mt-2">{{ .duration }}</div>
+                            <div class="reveal-12 experience__title text-lg">{{ .title }}</div>
+                            <div class="reveal-13 experience__company">{{ .company }}</div>
                         </div>
                     {{ end }}
                 {{ end }}
             </div>
             <div class="col-6 col-sm-6 mb-2">
-                <h2 >{{ .Params.experience.title | markdownify }}</h2>
-                <p class="mt-2 mb-2 text-lg">
+                <h2 class="reveal-9" >{{ .Params.experience.title | markdownify }}</h2>
+                <p class="reveal-9 mt-2 mb-2 text-lg">
                     {{ .Params.experience.description | markdownify }}
                 </p>
                 {{ with .Params.experience.button }}
-                    <a href="{{ .URL }}" class="btn btn-primary mt-5" target="_blank">
+                    <a href="{{ .URL }}" class= "reveal-9 btn btn-primary mt-5" target="_blank">
                         <i class="{{ .icon }}"></i>
                         {{ .btnText }}
                         <i class="icon-arrow-right"></i>
                     </a>
                 {{ end }}
                 {{ with .Params.experience.button2 }}
-                    <a href="{{ .URL }}" class="btn btn-frameless" target="_blank">
+                    <a href="{{ .URL }}" class="reveal-13 btn btn-frameless" target="_blank">
                         <i class="{{ .icon }}"></i>
                         {{ .btnText }}
                     </a>
@@ -166,7 +250,14 @@
   .experience__title{position:relative;font-size:20px;font-weight:600;z-index:2}
   @media (min-width:992px){.experience__title{font-size:24px}}
   .experience__company{font-size:14px;font-weight:700;color:#e93e34}
-
+  .text-red {
+    --tw-text-opacity: 1;
+    color: #FDBBBB;
+  }
+  .text-reddark {
+    --tw-text-opacity: 1;
+    color: #571515;
+  }
 
 </style>
   <!-- /Experience -->
@@ -174,24 +265,24 @@
   {{ with site.GetPage "sections/testimonial" }}
     {{ if .Params.enable }}
       <section >
-        <div class="container">
+        <div class="reveal  container">
           <div class="row">
             <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
-              <h2 class="mb-4">
+              <h2 class="reveal-14 mb-4">
                 {{ .Title | markdownify }}
               </h2>
-              <p>
+              <p class="reveal-15">
                 {{ .Params.description | markdownify }}
               </p>
             </div>
-            <div class="col-12">
+            <div class="reveal-15 col-12">
               <div class="swiper testimonial-slider">
-                <div class="swiper-wrapper">
+                <div class=" swiper-wrapper">
                   {{ range .Params.testimonials }}
                     <div class="swiper-slide">
                       <div
                         class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
-                        <div class="text-dark dark:text-white">
+                        <div class="text-red dark:text-reddark ">
                           <svg
                             width="33"
                             height="20"
@@ -238,7 +329,7 @@
                   {{ end }}
                 </div>
                 <div
-                  class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center"></div>
+                  class=" testimonial-slider-pagination mt-9 flex items-center justify-center text-center"></div>
               </div>
             </div>
           </div>
@@ -248,4 +339,36 @@
   {{ end }}
   <!-- /Testimonials -->
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script>
+
+    const ratio = .1;
+
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: .1,
+    };
+
+ const handleIntersect = function(entries, observer) {
+
+  entries.forEach(function(entry) {
+    if (entry.intersectionRatio > ratio) {
+      
+      entry.target.classList.add('reveal-visible');
+      observer.unobserve(entry.target);
+    }
+  });
+
+
+   
+  };
+
+    const observer = new IntersectionObserver(handleIntersect, options);
+    document.querySelectorAll('.reveal').forEach(function(r) {
+      observer.observe(r);
+    });
+
+    
+
+  </script>
 {{ end }}
