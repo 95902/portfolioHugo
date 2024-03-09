@@ -7,8 +7,8 @@ description: "Découvrez ci-dessous quelques-uns des projets sur lesquels j'ai t
 testimonials:
   - name: "Magarantieauto"
     designation: "Web Designer"
-    avatar: "/images/logo_mga.png"
-    content: "Sur ce projet, j'ai apporté ma contribution en assurant la maintenance et en intégrant de nouvelles fonctionnalités pour améliorer l'expérience utilisateur. En étroite collaboration avec les équipes commerciales, j'ai compris leurs besoins spécifiques et j'ai traduit ces exigences en solutions pratiques..."
+    avatar: "/images/mga_logo.svg"
+    content: "Sur ce projet, j'ai apporté ma contribution en assurant la maintenance et en intégrant de nouvelles fonctionnalités pour améliorer l'expérience utilisateur.."
     button:
       enable: true
       label: "Visiter le site"
@@ -18,7 +18,7 @@ testimonials:
   - name: "Lagon Courtage"
     designation: "Web Designer"
     avatar: "/images/lagon_logo.png"
-    content: "Un cabinet de courtage d'assuranczet de services L'automobile et l'assurance des risques mécaniques. L'assistance et le service...."
+    content: "Dans le cadre de ce projet, mon rôle était d'assurer la maintenance continue du système tout en ajoutant de nouvelles fonctionnalités.."
     button:
       enable: true
       label: "Visiter le site"
@@ -27,7 +27,7 @@ testimonials:
   - name: "Cooking Formations"
     designation: "Web Designer"
     avatar: "/images/CF_logo.png"
-    content: "Formation ."
+    content: "Cette expérience de création d'un site web avec Symfony pour Cooking Formations a été extrêmement gratifiante pour moi en tant que Web Designer..."
     button:
       enable: true
       label: "Visiter le site"
@@ -36,7 +36,7 @@ testimonials:
   - name: "Procédure d'installation d'un rôle d'ansistrano"
     designation: "Dev ops"
     avatar: "/images/avatar-sm.png"
-    content: "L'objectif principal de ce projet est de développer une solution qui facilite le déploiement des applications. Cette solution devrait permettre aux développeurs de déployer rapidement et facilement leurs applications sur le serveur, en automatisant certaines tâches et en particulier les exigences en matière de ressources matérielles."
+    content: "L'objectif principal de ce projet est de développer une solution qui facilite le déploiement des applications.."
     button:
       enable: true
       label: "Visiter le site"
@@ -46,7 +46,7 @@ testimonials:
   - name: "Documentation API Rest"
     designation: "Dev ops"
     avatar: "/images/avatar-sm.png"
-    content: "Cette API permet de créer une nouvelle souscription biomoteur en enregistrant les informations fournies par l'utilisateur, elle permet également la mise à jour des informations.."
+    content: "Cette API permet de créer d'enregistrant les informations fournies par l'utilisateur, elle permet également la mise à jour des informations.."
     button:
       enable: true
       label: "Visiter le site"
@@ -56,7 +56,7 @@ testimonials:
   - name: "Intégration new desing Assurmix "
     designation: "Dev ops"
     avatar: "/images/avatar-sm.png"
-    content: "Cette API permet de créer une nouvelle souscription biomoteur en enregistrant les informations fournies par l'utilisateur, elle permet également la mise à jour des informations.."
+    content: "Cette expérience m'a permis de développer mes compétences en gestion de projet et de renforcer ma capacité à travailler en équipe.."
     button:
       enable: true
       label: "Visiter le site"
