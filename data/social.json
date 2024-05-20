@@ -2,8 +2,8 @@
   "main": [
     {
       "name": "facebook",
-      "icon": "fab fa-facebook",
-      "link": "https://www.facebook.com/"
+      "icon": "fab fa-discord",
+      "link": "https://discord.gg/H4bFUk29"
     },
     {
       "name": "twitter",
@@ -18,7 +18,7 @@
     {
       "name": "linkedin",
       "icon": "fab fa-linkedin",
-      "link": "https://www.linkedin.com/"
+      "link": "https://www.linkedin.com/in/marcel-bragance/"
     }
   ]
 }

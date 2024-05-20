@@ -51,8 +51,8 @@ We have included almost everything you need to start your Hugo project. Let's se
 - 📞 Contact
 - 👥 Authors
 - 👤 Author Single
-- 📝 Blog
-- 📝 Blog Single
+- 📝 Projet
+- 📝 Projet Single
 - 🚫 Custom 404
 - 💡 Elements
 - 📄 Privacy Policy
