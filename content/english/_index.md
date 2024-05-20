@@ -51,17 +51,17 @@ experience:
   title: "Experience"
   description: "Mon parcours m'a permis de concevoir et de développer des produits numériques,contribuant à la croissance des entreprises et à l'amélioration de la vie des utilisateurs."
   button:
-    icon: "icon-linkedin-fill"
+    icon: "fab fa-linkedin"
     btnText: "Linkedin"
-    URL: "https://www.linkedin.com/company/radity/"
+    URL: "https://www.linkedin.com/in/marcel-bragance/"
   button2:
     icon: "icon-profile-fill"
     btnText: "Télécharger mon CV"
-    URL: "#"
+    URL: "Cv_bragance_marcel.pdf"
   items:
     - title: "Developpeur Junior"
       company: "Innosys"
-      duration: "sept 2020 - Aujourd'hui"
+      duration: "sept 2021 - Aujourd'hui"
 
     - title: "Stage développeur web"
       company: "Younited Credit"

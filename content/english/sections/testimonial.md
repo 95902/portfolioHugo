@@ -7,18 +7,30 @@ description: "Découvrez ci-dessous quelques-uns des projets sur lesquels j'ai t
 testimonials:
   - name: "Magarantieauto"
     designation: "Web Designer"
-    avatar: "/images/mga_logo.svg"
+    avatar: "/images/mga_logo__1_-removebg-preview.svg"
     content: "Sur ce projet, j'ai apporté ma contribution en assurant la maintenance et en intégrant de nouvelles fonctionnalités pour améliorer l'expérience utilisateur.."
+    tags:
+      - "👨🏻‍💻 Dev"
+      - "👷‍♂️ Maint"
+      - "🌐 déploy "
     button:
       enable: true
       label: "Visiter le site"
-      # link: "https://www.magarantieauto.fr/"
+      link: "https://www.magarantieauto.fr/"
+    button1:
+      enable: true
       link: "/blog/post-1/"
+      class: "btn-primary"
+      label: "Plus de détails"
 
   - name: "Lagon Courtage"
     designation: "Web Designer"
-    avatar: "/images/lagon_logo.png"
+    avatar: "/images/lagon_logo.svg"
     content: "Dans le cadre de ce projet, mon rôle était d'assurer la maintenance continue du système tout en ajoutant de nouvelles fonctionnalités.."
+    tags:
+      - "👨🏻‍💻 Dev "
+      - "👷‍♂️ Maint"
+      - "🌐 déploy "
     button:
       enable: true
       label: "Visiter le site"
@@ -26,8 +38,11 @@ testimonials:
 
   - name: "Cooking Formations"
     designation: "Web Designer"
-    avatar: "/images/CF_logo.png"
+    avatar: "/images/CF_logo-removebg-preview.svg"
     content: "Cette expérience de création d'un site web avec Symfony pour Cooking Formations a été extrêmement gratifiante pour moi en tant que Web Designer..."
+    tags:
+      - "👨🏻‍💻 Dev"
+      
     button:
       enable: true
       label: "Visiter le site"
@@ -37,6 +52,9 @@ testimonials:
     designation: "Dev ops"
     avatar: "/images/avatar-sm.png"
     content: "L'objectif principal de ce projet est de développer une solution qui facilite le déploiement des applications.."
+    tags:
+      - "👨🏻‍💻 Dev"
+      - "🌐 déploy "
     button:
       enable: true
       label: "Visiter le site"
@@ -47,6 +65,9 @@ testimonials:
     designation: "Dev ops"
     avatar: "/images/avatar-sm.png"
     content: "Cette API permet de créer d'enregistrant les informations fournies par l'utilisateur, elle permet également la mise à jour des informations.."
+    tags:
+      - "👨🏻‍💻 Dev"
+      - "🌐 déploy "
     button:
       enable: true
       label: "Visiter le site"
@@ -57,6 +78,8 @@ testimonials:
     designation: "Dev ops"
     avatar: "/images/avatar-sm.png"
     content: "Cette expérience m'a permis de développer mes compétences en gestion de projet et de renforcer ma capacité à travailler en équipe.."
+    tags:
+      - "👨🏻‍💻 Dev"
     button:
       enable: true
       label: "Visiter le site"

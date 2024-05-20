@@ -7,29 +7,26 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "About"
+name = "Sur moi"
 url = "about/"
-weight = 2
-
-[[main]]
-name = "Elements"
-url = "elements/"
 weight = 3
 
 [[main]]
+name = "Contact"
+url = "contact/"
 weight = 4
+
+[[main]]
+name = "Projets"
+url = "blog/"
+weight = 2
+
+
+[[main]]
+weight = 5
 name = "Pages"
 hasChildren = true
 
-[[main]]
-parent = "Pages"
-name = "Blog"
-url = "blog/"
-
-[[main]]
-parent = "Pages"
-name = "Contact"
-url = "contact/"
 
 [[main]]
 parent = "Pages"
@@ -46,19 +43,30 @@ parent = "Pages"
 name = "404 Page"
 url = "404/"
 
+[[main]]
+parent = "Pages"
+name = "Elements"
+url = "elements/"
+
 
 # footer menu
 [[footer]]
-name = "About"
+name = "Sur moi"
 url = "about/"
 weight = 1
 
 [[footer]]
-name = "Elements"
-url = "elements/"
+name = "Contact"
+url = "contact/"
 weight = 2
 
 [[footer]]
-name = "Privacy Policy"
-url = "privacy-policy/"
+name = "Projets"
+url = "blog/"
 weight = 3
+
+
+[[footer]]
+name = "Mention légales"
+url = "privacy-policy/"
+weight = 4
