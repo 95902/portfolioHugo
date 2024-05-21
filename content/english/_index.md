@@ -70,4 +70,5 @@ experience:
     - title: "Chargé de SAV"
       company: "Isabel marant"
       duration: "Nov 2012 - Juin 2019"
+      
 ---
