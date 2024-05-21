@@ -21,7 +21,7 @@ testimonials:
       enable: true
       link: "/blog/post-1/"
       class: "btn-primary"
-      label: "Plus de détails"
+      label: ""
 
   - name: "Lagon Courtage"
     designation: "Web Designer"

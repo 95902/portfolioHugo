@@ -307,7 +307,20 @@
                             {{ end }}
                             </p>
                           {{ .content | markdownify }}
+                          {{ with .button1 }}
+                        
+                          {{ if .enable }}
+                            <a class="btnContact dark:btnContact2  btn-sm btn-primary mt-6" href="{{ .link | absURL }}"
+                              {{ if strings.HasPrefix .link `http` }}
+                              target="_blank" rel="noopener"
+                            {{ end }}>
+                            {{ .label }}
+                              <i class="fa fa-plus pl-2"></i>
+                            </a>
+                          {{ end }}
+                        {{ end }}
                         </blockquote>
+                       
                         <div class="mt-11 flex items-center">
                           <div class="text-dark dark:text-white">
                             {{ partial "image" (dict "Src" .avatar "Size" "70x70" "Class" "rounded-lg" "Alt" .name) }}
@@ -333,18 +346,7 @@
                           {{ end }}
                         {{ end }}
 
-                        {{ with .button1 }}
                         
-                          {{ if .enable }}
-                            <a class="btnContact dark:btnContact2 btn btn-primary mt-6" href="{{ .link | absURL }}"
-                              {{ if strings.HasPrefix .link `http` }}
-                              target="_blank" rel="noopener"
-                            {{ end }}>
-                            {{ .label }}
-                              <i class="fa fa-plus pl-2"></i>
-                            </a>
-                          {{ end }}
-                        {{ end }}
                       </div>
                       
                       
