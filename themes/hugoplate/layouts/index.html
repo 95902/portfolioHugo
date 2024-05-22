@@ -306,17 +306,24 @@
                           
                             {{ end }}
                             </p>
-                          {{ .content | markdownify }}
-                          {{ with .button1 }}
+                          
+                          {{ with .button_content }}
                         
                           {{ if .enable }}
-                            <a class="btnContact dark:btnContact2  btn-sm btn-primary mt-6" href="{{ .link | absURL }}"
+
+
+                          
+                           <a class="no-underline hover:underline" href="{{ .link | absURL }}"
                               {{ if strings.HasPrefix .link `http` }}
                               target="_blank" rel="noopener"
                             {{ end }}>
                             {{ .label }}
-                              <i class="fa fa-plus pl-2"></i>
+                              <i class="fa-hand-o-right"></i>
                             </a>
+                          
+
+
+                            
                           {{ end }}
                         {{ end }}
                         </blockquote>
