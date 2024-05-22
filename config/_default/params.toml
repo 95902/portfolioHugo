@@ -76,8 +76,8 @@ mastodon = "" # Your verification code
 [cookies]
 enable = true
 expire_days = 60
-content = "This site uses cookies. By continuing to use this website, you agree to their use."
-button = "I Accept"
+content = "Ce site utilise des cookies. En continuant à utiliser ce site Web, vous acceptez leur utilisation."
+button = "J'accepte"
 
 ######################## sidebar widgets #########################
 [widgets]
