@@ -2,7 +2,7 @@
 
 # main menu
 [[main]]
-name = "Home"
+name = "Acceuil"
 url = "/"
 weight = 1
 

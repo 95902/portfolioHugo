@@ -1,16 +1,6 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "fab fa-discord",
-      "link": "https://discord.gg/H4bFUk29"
-    },
-    {
-      "name": "twitter",
-      "icon": "fab fa-twitter",
-      "link": "https://twitter.com/"
-    },
-    {
       "name": "github",
       "icon": "fab fa-github",
       "link": "https://www.github.com/"
