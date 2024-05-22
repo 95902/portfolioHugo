@@ -2,11 +2,11 @@
 title: "Automatisation du Déploiement"
 meta_title: ""
 description: "Automatisation du Déploiement"
-date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
+date: 2023-01-02T05:00:00Z
+image: "/images/ansistrano.105ff2d4.svg"
 categories: ["Architecture"]
 author: "Mars-hell"
-tags: ["Devops", "Ansible", "Docker","Ansistrano"]
+tags: [ "Ansible", "Docker","Ansistrano"]
 draft: false
 ---
 
@@ -22,4 +22,3 @@ Une des principales réussites de ce projet a été la simplification des tâche
 
 > Ce projet a été le fruit d'une collaboration étroite entre les équipes de développement, les DevOps et les autres parties prenantes. Ensemble, nous avons réussi à développer une solution efficace qui répondait aux besoins de l'entreprise et qui a eu un impact positif sur la productivité et l'efficacité de l'équipe!
 
-Cette expérience de travail sur la procédure d'installation d'un rôle Ansistrano a été extrêmement enrichissante pour moi en tant que DevOps. Non seulement j'ai pu développer mes compétences techniques avec Ansistrano, mais j'ai également appris l'importance de l'automatisation dans le processus de déploiement des applications. Je suis fier du travail accompli et convaincu que cette solution continuera à apporter de la valeur à l'entreprise!

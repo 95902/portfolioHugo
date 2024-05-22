@@ -1,33 +1,27 @@
 ---
-title: "Privacy"
+title: "Confidentialité"
 # meta title
-meta_title: ""
+meta_title: "Confidentialité"
 # meta description
-description: "This is meta description"
+description: "Confidentialité"
 # save as draft
 draft: false
 ---
 
-#### Responsibility of Contributors
+#### Responsabilité des contributeurs
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+Les contributeurs du site s'engagent à fournir des informations précises et à jour. Cependant, ils ne peuvent garantir l'exactitude, l'exhaustivité ou la pertinence des informations publiées. En conséquence, ils déclinent toute responsabilité pour tout dommage direct ou indirect résultant de l'utilisation ou de l'impossibilité d'utiliser ces informations.
 
-pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.
+#### Collecte d'informations personnelles
 
-#### Gathering of Personal Information
+Le site peut collecter des informations personnelles, telles que le nom et l'adresse e-mail, uniquement lorsque les utilisateurs les fournissent volontairement. Ces informations seront utilisées uniquement dans le but spécifié au moment de la collecte et ne seront pas divulguées à des tiers sans consentement préalable.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+#### Protection des informations personnelles
 
-#### Protection of Personal- Information
+Nous nous engageons à protéger les informations personnelles de nos utilisateurs. Nous mettons en œuvre des mesures de sécurité appropriées pour protéger contre l'accès non autorisé, la modification ou la destruction des données personnelles stockées sur notre site.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.
+### Changements de politique de confidentialité**
 
-Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat
+Toute modification apportée à notre politique de confidentialité sera publiée sur cette page. Les utilisateurs seront informés des changements éventuels par e-mail. En continuant à utiliser ce site, vous consentez à notre politique de confidentialité mise à jour.
 
-#### Privacy Policy Changes
 
-1. Sll the Themefisher items are designed to be with the latest , We check all
-2. comments that threaten or harm the reputation of any person or organization
-3. personal information including, but limited to, email addresses, telephone numbers
-4. Any Update come in The technology Customer will get automatic Notification.
