@@ -57,7 +57,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Télécharger mon CV"
-    URL: "images/doc/Cv_bragance_marcel.pdf"
+    URL: "images/Cv_bragance_marcel.png"
   items:
     - title: "Developpeur Junior"
       company: "Innosys"
