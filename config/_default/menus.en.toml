@@ -28,15 +28,15 @@ name = "Pages"
 hasChildren = true
 
 
-# [[main]]
-# parent = "Pages"
-# name = "Authors"
-# url = "authors/"
+[[main]]
+parent = "Pages"
+name = "Authors"
+url = "authors/"
 
-# [[main]]
-# parent = "Pages"
-# name = "Categories"
-# url = "categories/"
+[[main]]
+parent = "Pages"
+name = "Categories"
+url = "categories/"
 
 [[main]]
 parent = "Pages"

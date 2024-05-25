@@ -225,19 +225,15 @@
                 <p class="reveal-9 mt-2 mb-2 text-lg">
                     {{ .Params.experience.description | markdownify }}
                 </p>
-                
                 {{ with .Params.experience.button }}
 
-
-                {{/*  <embed src="./images/doc/Cv_bragance_marcel.pdf" type="application/pdf" width="100%" height="600px" />  */}}
-                <a href="{{ .URL }}"  class= "btnContact dark:btnContact2 reveal-9 btn btn-primary mt-5" target="_blank">
-                        <i class="{{ .icon }}"></i>
+                <a href="{{ .URL }}" class= "btnContact dark:btnContact2 reveal-9 btn btn-primary mt-5" target="_blank">                        <i class="{{ .icon }}"></i>
                         {{ .btnText }}
                         <i class="icon-arrow-right"></i>
                     </a>
                 {{ end }}
                 {{ with .Params.experience.button2 }}
-                    <a href="{{ .URL }}" class="btnContact dark:btnContact2 reveal-13 btn btn-frameless" target="_blank">
+                    <a href="{{ .link | absURL }}" class="btnContact dark:btnContact2 reveal-13 btn btn-frameless" >
                         <i class="{{ .icon }}"></i>
                         {{ .btnText }}
                     </a>
