@@ -39,7 +39,7 @@ education:
       degree: "Apple foundation program"  
 
     - university: "GRETA MÉTÉHOR PARIS"
-      year: "2020-2019"
+      year: "2019-2020"
       degree: "BTS SIO SLAM,Développeur d'applications web et mobile"
 
     - university: "COGEFI-Formation"
@@ -57,7 +57,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Télécharger mon CV"
-    URL: "images/Cv_bragance_marcel.png"
+    link: "/blog/post-7"
   items:
     - title: "Developpeur Junior"
       company: "Innosys"
