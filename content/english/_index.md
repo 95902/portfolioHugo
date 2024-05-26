@@ -54,10 +54,6 @@ experience:
     icon: "fab fa-linkedin"
     btnText: "Linkedin"
     URL: "https://www.linkedin.com/in/marcel-bragance/"
-  button2:
-    icon: "icon-profile-fill"
-    btnText: "Télécharger mon CV"
-    link: "/blog/post-7"
   items:
     - title: "Developpeur Junior"
       company: "Innosys"
