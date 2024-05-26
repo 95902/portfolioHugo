@@ -22,31 +22,31 @@ url = "blog/"
 weight = 2
 
 
-[[main]]
-weight = 5
-name = "Pages"
-hasChildren = true
+# [[main]]
+# weight = 5
+# name = "Pages"
+# hasChildren = true
 
 
-[[main]]
-parent = "Pages"
-name = "Authors"
-url = "authors/"
+# [[main]]
+# parent = "Pages"
+# name = "Authors"
+# url = "authors/"
 
-[[main]]
-parent = "Pages"
-name = "Categories"
-url = "categories/"
+# [[main]]
+# parent = "Pages"
+# name = "Categories"
+# url = "categories/"
 
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "404/"
+# [[main]]
+# parent = "Pages"
+# name = "404 Page"
+# url = "404/"
 
-[[main]]
-parent = "Pages"
-name = "Elements"
-url = "elements/"
+# [[main]]
+# parent = "Pages"
+# name = "Elements"
+# url = "elements/"
 
 
 # footer menu
