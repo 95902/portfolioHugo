@@ -20,8 +20,8 @@ path = "github.com/gethugothemes/hugo-modules/videos"
 [[imports]]
 path = "github.com/gethugothemes/hugo-modules/icons/font-awesome"
 
-# [[imports]]
-# path = "github.com/gethugothemes/hugo-modules/icons/themify-icons"
+[[imports]]
+path = "github.com/gethugothemes/hugo-modules/icons/themify-icons"
 
 [[imports]]
 path = "github.com/gethugothemes/hugo-modules/gzip-caching"
@@ -62,8 +62,8 @@ path = "github.com/gethugothemes/hugo-modules/components/render-link"
 # [[imports]]
 # path = "github.com/gethugothemes/hugo-modules/components/valine-comment"
 
-# [[imports]]
-# path = "github.com/gethugothemes/hugo-modules/components/crisp-chat"
+[[imports]]
+path = "github.com/gethugothemes/hugo-modules/components/crisp-chat"
 
 [[imports]]
 path = "github.com/gethugothemes/hugo-modules/shortcodes/button"
