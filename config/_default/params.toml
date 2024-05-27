@@ -57,9 +57,9 @@ show_categories = true
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
 keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
+description = "Mars-Hell.B ."
 author = "zeon.studio"
-image = "images/og-image.png"
+image = "images/image-1716200347851-removebg-preview-removebg-preview.png"
 
 
 # site verifications
