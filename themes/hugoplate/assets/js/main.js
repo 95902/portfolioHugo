@@ -20,7 +20,7 @@ new Typewriter(txtAnim, {
   .typeString("<strong> Développeur  Web <br></strong>")
   .pause(1000)
   .deleteChars(17)
-  .typeString('<span style="color: #A6ACAF;">Dev  PHP</span>!')
+  .typeString('<span style="color: #A04000 ;">Dev  PHP</span>!')
   .pauseFor(1000)
   .deleteChars(9)
   .typeString('<span style="color: #E67E22 ;">Dev  JavaScript</span> !')
