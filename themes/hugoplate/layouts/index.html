@@ -227,17 +227,18 @@
                 </p>
                 {{ with .Params.experience.button }}
 
-                <a href="{{ .URL }}" class= "btnContact dark:btnContact2 reveal-9 btn btn-primary mt-5" target="_blank">                        <i class="{{ .icon }}"></i>
-                        {{ .btnText }}
-                        <i class="icon-arrow-right"></i>
-                    </a>
+                  <a href="{{ .URL }}" class= "btnContact dark:btnContact2 reveal-9 btn btn-primary mt-5" target="_blank">                        
+                    <i class="{{ .icon }}"></i>
+                      {{ .btnText }}
+                    <i class="icon-arrow-right"></i>
+                  </a>
                 {{ end }}
-                {{/*  {{ with .Params.experience.button2 }}
-                    <a href="{{ .link | absURL }}" class="btnContact dark:btnContact2 reveal-13 btn btn-frameless" >
-                        <i class="{{ .icon }}"></i>
-                        {{ .btnText }}
+                {{ with .Params.experience.buttonCv }}
+                    <a href="{{ .URL  }}" class="btnContact dark:btnContact2 reveal-13 btn btn-frameless" target="_blank">
+                      <i class="{{ .icon }}"></i>
+                      {{ .btnText }}
                     </a>
-                {{ end }}  */}}
+                {{ end }}  
             </div>
         </div>
     </div>
