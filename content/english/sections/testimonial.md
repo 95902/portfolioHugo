@@ -45,7 +45,7 @@ testimonials:
       - "👨🏻‍💻 Dev"
       - "🌐 déploy "
     button:
-      enable: true
+      enable: false
       label: "Visiter le site"
       link: ""
     button_content:
@@ -61,7 +61,7 @@ testimonials:
       - "👨🏻‍💻 Dev"
       - "🌐 déploy "
     button:
-      enable: true
+      enable: false
       label: "Visiter le site"
       link: "https://www.canva.com/design/DAEgriaLGYE/vgbzOjrm77rt1F3cHNkrmA/edit?utm_content=DAEgriaLGYE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
       # link: "https://innosysfrance.github.io/ansistrano_documentation/"
@@ -78,7 +78,7 @@ testimonials:
       - "👨🏻‍💻 Dev"
       - "🌐 déploy "
     button:
-      enable: true
+      enable: false
       label: "Visiter le site"
       # link: "https://documenter.getpostman.com/view/10554491/2s9YypEP76"
     button_content:
