@@ -63,6 +63,7 @@ testimonials:
     button:
       enable: true
       label: "Visiter le site"
+      link: "https://www.canva.com/design/DAEgriaLGYE/vgbzOjrm77rt1F3cHNkrmA/edit?utm_content=DAEgriaLGYE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
       # link: "https://innosysfrance.github.io/ansistrano_documentation/"
     button_content:
       enable: true
