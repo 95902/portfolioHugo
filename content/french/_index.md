@@ -59,10 +59,10 @@ experience:
     btnText: "Télécharger mon CV"
     link: "/blog/post-7"
   items:
-    - title: "Developpeur Junior"
+    - title: "Developpeur PHP"
       company: "Innosys"
-      duration: "sept 2021 - Aujourd'hui"
-
+      duration: "sept 2021 - Octobre 2024"
+      
     - title: "Stage développeur web"
       company: "Younited Credit"
       duration: "Mars 2020- Mai 2020"
